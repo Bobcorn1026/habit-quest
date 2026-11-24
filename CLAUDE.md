@@ -26,6 +26,7 @@
 - 平台：iOS（Flutter），以 iPhone 為主；iPad 也能跑（內容欄寬上限 560）
 - Bundle ID：`com.satori.habit_quest`
 - **Repo 公開在 GitHub（`habit-quest`）**：不要 commit 私人資訊（Notion id、Apple Team ID、真實金額、Gmail、`/Users/...` 路徑）。使用者自己的預設值放 `assets/local/profile.json`（不進 git，`LocalProfile` 啟動時讀，範例 `docs/local_profile.example.json`）；Team ID 在 `ios/Flutter/Team.xcconfig`（不進 git）。程式與測試只用通用值（示範角色「亞倫」）
+- GitHub：`origin`＝`github.com/Bobcorn1026/habit-quest`，只推 `main`；這個 repo 的 git 信箱是 GitHub noreply。`private-history` 分支是公開前的 111 個 commit（有私人資料，`.git/hooks/pre-push` 擋著，**永遠不推**），另有備份 `.private/habit_quest-history-2026-11-25.bundle`；舊 commit 編號（例如 `ce4797f`）要在那個分支找
 - 狀態管理：Riverpod（不用 codegen）；時間透過 `Clock` 注入，測試可固定時間
 - 資料：drift（SQLite），只存本機；API key 存 Keychain（`flutter_secure_storage`）
 - 一天從凌晨 4 點開始算（`GameRules.dayStartHour`）
