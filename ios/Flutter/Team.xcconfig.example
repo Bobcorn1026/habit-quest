@@ -1,0 +1,2 @@
+// Copy to Team.xcconfig (ignored by git) and set your Apple developer team.
+DEVELOPMENT_TEAM = 

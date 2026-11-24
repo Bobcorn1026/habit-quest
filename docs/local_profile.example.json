@@ -1,0 +1,13 @@
+{
+  "bank": {
+    "income": 10000,
+    "meal": 5000,
+    "mealMin": 120,
+    "mealMax": 220,
+    "fixed": [
+      {"id": "gym", "name": "健身房", "amount": 800},
+      {"id": "subscription", "name": "年費訂閱", "amount": 300, "reserve": true}
+    ]
+  },
+  "demo": {"name": "亞倫", "identity": "每天進步一點的人"}
+}

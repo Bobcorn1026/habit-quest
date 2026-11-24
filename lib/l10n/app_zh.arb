@@ -1,0 +1,7 @@
+{
+  "@@locale": "zh",
+  "appTitle": "勇者日課",
+  "@appTitle": {
+    "description": "App name shown in the title bar and launcher."
+  }
+}

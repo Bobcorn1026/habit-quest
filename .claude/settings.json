@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter *)",
+      "Bash(dart *)",
+      "Bash(pod *)",
+      "Bash(xcodebuild *)",
+      "Bash(xcrun *)",
+      "Bash(xcbeautify *)",
+      "Bash(xcodegen *)",
+      "Bash(swiftformat *)",
+      "Bash(plutil *)",
+      "Bash(log show *)",
+      "Bash(log stream *)",
+      "Bash(open *)",
+      "Bash(screencapture *)",
+      "Bash(git *)",
+      "Bash(templates/new_flutter_app.sh *)",
+      "Bash(./templates/new_flutter_app.sh *)",
+      "mcp__dart"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(gh *)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "dart"
+  ]
+}
